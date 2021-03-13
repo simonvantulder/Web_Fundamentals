@@ -1,0 +1,19 @@
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: auto;
+  padding: 0;
+}
+img {
+  width: 380px;
+  height: 380px;
+  margin: 5px;
+}
+
+body {
+  color: green;
+}
+
+.boxset {
+  display: flex;
+  justify-content: space-evenly;
+}

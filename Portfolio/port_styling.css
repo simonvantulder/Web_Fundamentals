@@ -1,0 +1,131 @@
+/*CSS reset settings here*/
+*{ 
+    /* outline: 1px dotted red; */
+    margin: 0px;
+    padding: 0px; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#wrapper{ /* background formatting*/
+    width: 970px;
+    background-image: radial-gradient( #6f5964,  #68525e, #1f0f12);
+    margin: 0px 10px 0px 0px;
+
+
+}
+header{
+    width:970px;
+    background-color:#fdfdfd;
+    font-family: "comic sans ms", comic, cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+
+}
+h1{
+    font-family: "comic sans ms", comic, cursive;
+}
+h3{ 
+    font-size: 14pt;
+} 
+
+.upper{
+    display: flex;
+    justify-content: space-around;
+}
+    section{
+        background-image: linear-gradient( to right,  #ffffff, #dacbd9);
+        margin-left: 0px;
+        margin-right: 22px;
+        width: 460px; /* width of the images in the flex zone determines the space between when using flex space around or spacebetween */
+
+    }
+        .aboutText{
+            padding: 8px;
+            font-size: 12pt;
+        }
+
+
+#projectMenu{
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    width: auto;
+    padding: 23px 20px;
+
+}
+    .projectbox{
+        padding: 0px 0px;
+        width:280px;
+        background-image: linear-gradient( to right,  #ffffff, #dacbd9);
+    }
+        .projectHeaders{
+            background-image: linear-gradient(#d2d1d8, #8a8996,#49494d);
+            color: white;
+            font-size: 12pt;
+            padding: 11px 10px;
+        }
+        .description{
+            min-height: 137px;
+            padding: 5px 10px;
+            font-size: 10pt;
+        }
+
+#iconlogo{
+    display: flex;
+    flex-flow: wrap;
+    padding: 12px 1px;
+    margin: 0px 10px;
+}
+.icons{
+    width:15%; 
+    padding: 3px 12px 7px 0px;
+}
+.projectImages{
+    width:100%;
+}
+.socialmedia{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+
+.img3{
+    width: 20px;
+
+}
+.buttonBox{     /* flex children;   make sure the button box is 100% width of parent element;   justify content text inside button (child) */
+    display: flex;
+    width: 100%; 
+    justify-content: center;
+
+}
+button{ /* deleted height because its auto.It interferes with padding and pushed my text to the bottom*/
+    font-size: 12pt;
+    color: white;
+    padding: 7px;
+    margin-bottom:20px;
+    text-align: center;
+    background-color: #407d61;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(73, 73, 73);
+    border: 1px solid black;
+}
+footer{
+    padding: 1px;
+    background-color: #f8f8f8;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    margin: 1px;
+}
+
+
+a{/* format anchor tag/link color*/
+    color:black;
+}

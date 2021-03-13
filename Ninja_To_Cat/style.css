@@ -1,0 +1,19 @@
+* {
+  margin: auto;
+  padding: 0px;
+  /* border: 1px dotted red; */
+  font-family: Arial;
+  color: purple;
+  width: 970px;
+}
+
+img {
+  width: 800px;
+}
+
+#wrapper {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
